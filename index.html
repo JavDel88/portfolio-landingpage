@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fredoka&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Javier Delgado - Portafolio</title>
+  </head>
+  <body>
+    <header class="header">
+      <section class="container">
+        <div class="logo">
+          <a href="index.html">JavDel88</a>
+        </div>
+        <button class="menu-btn">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="24"
+            height="24"
+            viewBox="0 0 24 24"
+          >
+            <path
+              d="M3,8H21a1,1,0,0,0,0-2H3A1,1,0,0,0,3,8Zm18,8H3a1,1,0,0,0,0,2H21a1,1,0,0,0,0-2Zm0-5H3a1,1,0,0,0,0,2H21a1,1,0,0,0,0-2Z"
+            />
+          </svg>
+          <svg
+            class="none"
+            xmlns="http://www.w3.org/2000/svg"
+            width="24"
+            height="24"
+            viewBox="0 0 24 24"
+          >
+            <path
+              d="M13.41,12l4.3-4.29a1,1,0,1,0-1.42-1.42L12,10.59,7.71,6.29A1,1,0,0,0,6.29,7.71L10.59,12l-4.3,4.29a1,1,0,0,0,0,1.42,1,1,0,0,0,1.42,0L12,13.41l4.29,4.3a1,1,0,0,0,1.42,0,1,1,0,0,0,0-1.42Z"
+            />
+          </svg>
+        </button>
+        <nav class="menu">
+          <a href="#inicio">Inicio</a>
+          <a href="#acerca">Acerca</a>
+          <a href="#Habilidades">Habilidades</a>
+          <a href="#proyectos">Proyectos</a>
+          <a href="#contacto">Contacto</a>
+        </nav>
+      </section>
+    </header>
+    <section id="inicio" class="home">
+      <article
+        class="hero-image"
+        style="
+          --hero-image: url('assets/images/hero-image-home.jpg');
+          --hero-attachment: fixed;
+        "
+      >
+        <aside
+          class="hero-image-opacity"
+          style="--hero-opacity-color: var(--black-alpha-color)"
+        >
+          <div class="hero-image-content">
+            <h2 class="hero-image-title">
+              Hola mundo! <br />
+              Bienvenidos a mi sitio personal
+            </h2>
+            <a href="#contacto" class="btn">Contactame</a>
+          </div>
+        </aside>
+      </article>
+    </section>
+    <section id="acerca" class="section about container full-lg-screen">
+      <div>
+        <article>
+          <aside class="text-center text-lg-right">
+            <div class="section-title">
+              <h1>Javier Andrés Delgado</h1>
+              <h4>desarrollador <i>fullstack</i></h4>
+            </div>
+          </aside>
+        </article>
+        <article class="text-content text-lg-right">
+          <p>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. In omnis
+            doloribus ex accusamus labore sequi expedita, mollitia quisquam
+            culpa eaque provident hic consectetur, iusto quidem odio nulla
+            debitis aliquam quod?
+          </p>
+          <p>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. In omnis
+            doloribus ex accusamus labore sequi expedita, mollitia quisquam
+            culpa eaque provident hic consectetur, iusto quidem odio nulla
+            debitis aliquam quod?
+          </p>
+          <p>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. In omnis
+            doloribus ex accusamus labore sequi expedita, mollitia quisquam
+            culpa eaque provident hic consectetur, iusto quidem odio nulla
+            debitis aliquam quod?
+          </p>
+        </article>
+      </div>
+      <div>
+        <article class="text-center">
+          <img
+            class="gray-scale profile-image box-shadow-1"
+            src="assets/images/myPhoto.jpg"
+            alt="Javier Delgado"
+          />
+        </article>
+        <article class="text-center">
+          <div>
+            <a
+              class="btn"
+              href="assets/HOJA DE VIDA JAVIER ANDRES DELGADO HERNANDEZ.pdf"
+              target="_blank"
+              rel="noopener"
+              >DESCARGA MI CV</a
+            >
+          </div>
+        </article>
+      </div>
+    </section>
+    <section id="Habilidades" class="skills section container text-center">
+      <h2 class="section-title">Habilidades Técnicas</h2>
+      <div class="technical-skills">        
+      <article class="skill-card box-shadow-1">
+        <img src="assets/images/html-5.png" alt="HTML"/>
+        <h3 class="text-content">HTML</h3>
+      </article>
+      <article class="skill-card box-shadow-1">
+        <img src="assets/images/css-3.png" alt="CSS"/>
+        <h3 class="text-content">CSS</h3>
+      </article>
+      <article class="skill-card box-shadow-1">
+        <img src="assets/images/js.png" alt="Javascript"/>
+        <h3 class="text-content">Javascript</h3>
+      </article> 
+      </div>
+      <h2 class="section-title">Habilidades Blandas</h2>
+      <div class="technical-skills">        
+      <article class="skill-card box-shadow-1 text-center">
+        <img src="assets/images/red.png" alt="Trabajo en equipo"/>
+        <h3 class="text-content">Trabajo en equipo</h3>
+      </article>
+      <article class="skill-card box-shadow-1">
+        <img src="assets/images/conversacion.png" alt="Comunicación"/>
+        <h3 class="text-content">Comunicación</h3>
+      </article>
+      <article class="skill-card box-shadow-1">
+        <img src="assets/images/tiempo-de-espera.png" alt="Manejo del tiempo"/>
+        <h3 class="text-content">Manejo del tiempo</h3>
+      </article>
+      <article class="skill-card box-shadow-1">
+        <img src="assets/images/solucion.png" alt="Resolucion de problemas"/>
+        <h3 class="text-content">Resolucion de problemas</h3>
+      </article>
+      <article class="skill-card box-shadow-1">
+        <img src="assets/images/recuperacion.png" alt="Resilencia"/>
+        <h3 class="text-content">Resilencia</h3>
+      </article>
+      <article class="skill-card box-shadow-1">
+        <img src="assets/images/empatia.png" alt="empatia"/>
+        <h3 class="text-content">Empatia</h3>
+      </article>      
+      </div>      
+    </section>
+    <section id="proyectos" class="projects">
+      <h2>Projects</h2>
+    </section>
+    <section id="contacto" class="contact">
+      <h2>Contact</h2>
+    </section>
+    <footer class="footer">
+      Sitio diseñado por
+      <a href="http://github.com/" target="_blank" rel="noopener"
+        >Javier Delgado</a
+      >
+      &copy
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
